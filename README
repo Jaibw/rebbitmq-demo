@@ -1,0 +1,19 @@
+## Install 
+sudo apt update 
+wget https://raw.githubusercontent.com/Jaibw/rebbitmq-demo/master/install.sh
+sh install.sh 
+
+Open the Chrome http://PUBLIC-IP:15672
+User: admin
+Password: password 
+
+## Python Integration 
+sudo apt install python3-pip
+pip install pika 
+wget https://raw.githubusercontent.com/Jaibw/rebbitmq-demo/master/send.py
+python3 send.py
+python3 send.py
+python3 send.py
+
+wget https://raw.githubusercontent.com/Jaibw/rebbitmq-demo/master/receive.py
+python3 receive.py  # press Ctrl + c to exit 
